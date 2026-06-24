@@ -1,12 +1,5 @@
 NUM_KREA2_BLOCKS = 28
 
-# Approximate block roles (based on DiT / Flux research, unverified for Krea 2):
-#   0-6   composition / global structure
-#   7-13  subject identity / faces
-#   14-20 material / lighting
-#   21-27 texture / color / style
-
-
 class Krea2LoraBlockWeight:
     @classmethod
     def INPUT_TYPES(cls):
